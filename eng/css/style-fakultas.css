@@ -1121,6 +1121,7 @@ span a:hover{
 .blog-img img{
 	width: 100%;	
 	display: block;
+	max-height: 200px;
 }
 .blog-img1 img{
 	display:block;
@@ -1143,7 +1144,8 @@ span.author{
 }
 .blog-desc{
 	background:#ffea00;
-	padding:30px;
+	padding:20px;
+	max-height: 250px;
 }
 .blog-desc h5{
 	color:#000;
