@@ -8,41 +8,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 <style>
-.dropbtn {
-    background-color:  #eb2629;
-    color: white;
-    font-size: 16px;
-    border: none;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #eb2629;
-    font-size: 14px;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #9e2014;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #9e2014;}
-
 .accordion {
     background-color: #eee;
     color: #444;
@@ -83,9 +48,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+<link href="css/_edit.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style-fakultas.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/_editfakultas.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery -->
@@ -93,49 +60,59 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Add fancyBox main JS and CSS files -->
 <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
 <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
-		<script>
-			$(document).ready(function() {
-				$('.popup-with-zoom-anim').magnificPopup({
-					type: 'inline',
-					fixedContentPos: false,
-					fixedBgPos: true,
-					overflowY: 'auto',
-					closeBtnInside: true,
-					preloader: false,
-					midClick: true,
-					removalDelay: 300,
-					mainClass: 'my-mfp-zoom-in'
-			});
-		});
-		</script>
 </head>
 <body>
   <div class="header">	
-	     <div class="logo" style="width: 100%;background-color: #0066AD">
+	     <div class="logo" style="width: 100%;background-color: #0066AD;font-family: sans-serif;">
 				 <a href="#" style="float: left;">
 					 <img src="https://3.bp.blogspot.com/-ts-z6iXoTWQ/WuPhW1pCIQI/AAAAAAAACl0/HNsB5IQzVT0wuNnb_DaVJ3NXwwaej8XkQCLcBGAs/s1600/Logo%2BUniversitas%2BHasanuddin%2BMakassar%2BUNHAS.png" alt="" style="margin: 0px 10px;height: 60px;">
                  </a>
-                 <div>
-                    <p style="font-size:1.4em;color: #fff">Fakultas Teknik</p>
+                 <div style="font-family: sans-serif;">
+                    <p style="font-size:1.4em;color: #fff; font-family: sans-serif;">Fakultas Teknik</p>
                     <p style="font-size:1.4em;color: #fff">Universitas Hasanuddin</p>  
                  </div>
             </div>
 			 <div class="cssmenu" style="width: 100%;background-color: #eb2629;color: #fff">
-				<ul>
-					<li><a href="index.html">Beranda</a></li>
-					<li><a href="profil-fakultas.html">Profil Fakultas</a></li> 
-					<li><a href="akademik.html">Akademik</a></li> 
-					<li class="active"><div class="dropdown">
-  					<button class="dropbtn"><a href="sasaran.html">SASARAN</a></button>
-  					<div class="dropdown-content">
-   					<a href="tenaga_pendidik.html">Tenaga Pendidik</a>
-   					<a href="tenaga_kependidikan.html">Tenaga Kependidikan</a>
- 		 	</div>
-			</div></li> 
-					<li><a href="fasilitas.html">Fasilitas</a></li>
-					<li><a href="contact.html">Penelitian</a></li>
-				</ul>
-		     </div>
+        <ul>
+          <li class="active">
+            <div class="dropdown">
+              <button class="dropbtn"><a href="#">Profile<span class="caret"></span></a></button>
+                <div class="dropdown-content">
+                  <a href="overview.html">Overview</a>
+                  <a href="organization.html">Organization</a>
+                  <a href="accreditation.html">Accreditation</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn"><a href="#">Academics<span class="caret"></span></a></button>
+                <div class="dropdown-content">
+                  <a href="electrical.html">Bachelor of Electrical Engineering</a>
+                  <a href="informatic.html">Bachelor of Informatics</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn"><a href="#">Research<span class="caret"></span></a></button>
+                <div class="dropdown-content">
+                  <a href="publication.html">Publications</a>
+                  <a href="lab.html">Labs & Research Team</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn"><a href="#">People<span class="caret"></span></a></button>
+                <div class="dropdown-content">
+                  <a href="alumni.html">Alumni</a>
+                  <a href="student.html">Student</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        </div>
 		    <div class="clear"></div>
    </div>
    <div class="banner">
@@ -146,6 +123,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <div class="main">	
 	 <div class="project-wrapper">
 	 	<div class="wrap">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	 	  <div class="section group">
 	 	  <button class="accordion">Departemen Teknik Informatika</button>
 <div class="panel">

@@ -67,6 +67,7 @@ body{
 	font-family: 'Karla', sans-serif;
 	text-transform: uppercase;
 	margin: 0px;
+	text-decoration: none; 
 }
 .cssmenu li.active> a, .cssmenu li> a:hover {
 	color:#fff;
@@ -268,6 +269,35 @@ p.bottom{
 /*--content--*/
 .main{
 	background:#f6f6f6;
+	padding-left: 100px;
+	padding-bottom: 800px;
+	padding-top: 50px;
+}
+#main {
+	font-size: 1.1em;
+	font-family: "Times New Roman", Times, serif;
+}
+.thick {
+	font-weight: bold;
+}
+.normal {
+	font-weight: normal;
+}
+#tab-content {
+	padding-left: 80px;
+	padding-right: 50px;
+	text-align: justify;
+}
+#nav-nav{
+	padding-left: 10px;
+	font-weight: bold;
+}
+ul.a{list-style-type: upper-alpha;}
+ul.b{list-style-type: decimal;}
+ul.c{list-style-type: none;padding-left: 20px;}
+ul.d{list-style-type: decimal;padding-left: 40px;}
+.so {
+	font-style: italic;
 }
 .content-top{
 	height: 650px;
@@ -1014,6 +1044,7 @@ p.img{
 .project-list{
 	background:#424147;
 	padding: 30px;
+	padding-top: 10px;
 
 }
 .project-list li, .project-list1 li{

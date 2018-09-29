@@ -67,6 +67,7 @@ body{
 	font-family: 'Karla', sans-serif;
 	text-transform: uppercase;
 	margin: 0px;
+	text-decoration: none;
 }
 .cssmenu li.active> a, .cssmenu li> a:hover {
 	color:#fff;
@@ -1145,7 +1146,7 @@ span.author{
 .blog-desc{
 	background:#ffea00;
 	padding:20px;
-	max-height: 250px;
+	max-height: 300px;
 }
 .blog-desc h5{
 	color:#000;

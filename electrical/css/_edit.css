@@ -195,3 +195,8 @@ div#list_data img.active{
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
+
+.angka  {
+    list-style: decimal;
+    margin-left: 20px;
+}
