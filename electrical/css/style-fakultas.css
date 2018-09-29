@@ -270,7 +270,7 @@ p.bottom{
 .main{
 	background:#f6f6f6;
 	padding-left: 100px;
-	padding-bottom: 800px;
+	padding-bottom: 50px;
 	padding-top: 50px;
 }
 #main {
@@ -291,6 +291,8 @@ p.bottom{
 #nav-nav{
 	padding-left: 10px;
 	font-weight: bold;
+	color: #0066AD;
+	text-transform: uppercase;
 }
 ul.a{list-style-type: upper-alpha;}
 ul.b{list-style-type: decimal;}

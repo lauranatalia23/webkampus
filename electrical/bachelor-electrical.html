@@ -18,17 +18,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/w3.css">
 <!-- jQuery -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <!-- Add fancyBox main JS and CSS files -->
 <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
 <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
 </head>
 <body>
   <div class="header">	
 	     <div class="logo" style="width: 100%;background-color: #0066AD">
 				 <a href="#" style="float: left;">
-					 <img src="https://3.bp.blogspot.com/-ts-z6iXoTWQ/WuPhW1pCIQI/AAAAAAAACl0/HNsB5IQzVT0wuNnb_DaVJ3NXwwaej8XkQCLcBGAs/s1600/Logo%2BUniversitas%2BHasanuddin%2BMakassar%2BUNHAS.png" alt="" style="margin: 0px 10px;height: 60px;">
+					 <img src="https://3.bp.blogspot.com/-ts-z6iXoTWQ/WuPhW1pCIQI/AAAAAAAACl0/HNsB5IQzVT0wuNnb_DaVJ3NXwwaej8XkQCLcBGAs/s1600/Logo%2BUniversitas%2BHasanuddin%2BMakassar%2BUNHAS.png" alt="" style="margin: 0px 10px;height: 80px;">
                  </a>
                  <div>
                 <p style="font-size:1.4em;color: #fff">Electrical Engineering</p>
@@ -185,6 +196,85 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			            <ul class="a">
 			            	<li class="thick">Program Curriculum</li>
 			            	<p>The Program Curriculum of the EESP is designed to meet the program educational objectives.The EESP requires that all educational programs must have a freshman year that consists of mathematics and basic science, a set of general education, and engineering topics. With these constraints, the implementation of the EESP curriculum consists of three elements and with a total minimum of 145 credits hours as shown in the Figure 5-1.</p>
+			            	<button onclick="myFunction('Demo4')" class="w3-button w3-light-grey"><b>Figure 5-1</b></button>
+			            		<div id="Demo4" class="w3-hide w3-container w3-light-grey">
+								  <p><b>Overview of EESP curriculum.</b></p>
+								  <ul class="c">
+								  	<li class="normal"><img src="images/figure5.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  </ul>
+								</div>
+							<p>Table 5-1 describes the plan of study for students in this program including information on course offerings in the form of a recommended schedule by year and term along with maximum section enrollments for all courses in the program.</p>
+							<p>The flowchart or worksheet that illustrates the prerequisite structure of the program’s required courses is shown in Figure 5-2.</p>
+							<button onclick="myFunction('Demo5')" class="w3-button w3-light-grey"><b>Figure 5-2</b></button>
+			            		<div id="Demo5" class="w3-hide w3-container w3-light-grey">
+								  <p><b>Flowchart or worksheet that illustrates the prerequisite structure of the program.</b></p>
+								  <ul class="c">
+								  	<li class="normal"><img src="images/figure5-2.PNG" class="img-thumbnail" alt="Cinque Terre" width="600px"></li>
+								  </ul>
+								</div>
+							<br>
+							<br>
+							<li class="thick">Course Syllabi</li>
+							<p>The Course Syllabi can be found in Appendix A of this Readiness Review Report. </p>
+							<button onclick="myFunction('Demo6')" class="w3-button w3-light-grey"><b>Table 5-1 Curriculum</b></button>
+			            		<div id="Demo6" class="w3-hide w3-container w3-light-grey">
+								  <p><b>Electrical Engineering Study Program</b></p>
+								  <ul class="c">
+								  	<li class="normal"><img src="images/table5.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  	<li class="normal"><img src="images/table5-1.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  	<li class="normal"><img src="images/table5-2.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  	<li class="normal"><img src="images/table5-3.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  </ul>
+								  <p>The following information provides the components of the EESP curriculum.</p>
+								</div>
+								<br><br>
+							<p><b>General Education</b></p>
+								<p>The general education consists of 7 courses (total 14 credit hours). The general educations are listed in Table 5.2 General Education Component below. These fourteen credit hours satisfy all the requirements of the Hasanuddin University general education curriculum, which is design to accomplish the goals of Hasanuddin University as defined by its mission statements.</p>
+								<button onclick="myFunction('Demo7')" class="w3-button w3-light-grey"><b>Table 5-2 General Education Component</b></button>
+			            		<div id="Demo7" class="w3-hide w3-container w3-light-grey">
+								  <ul class="c">
+								  	<p><b>General Education Component</b></p>
+								  	<li class="normal"><img src="images/table5.2.PNG" class="img-thumbnail" alt="Cinque Terre" width="600px"></li>
+								  </ul>
+								</div>
+							<br><br>
+							<p><b>Mathematics and Basic Science</b></p>
+							<p>The mathematics and basic science consist of 34 (thirty-four) credit hours. It divides to 18 (eighteen) credit hours of mathematics as shown in the Table 5.3 and 16 (sixteen) credit hours of basic science as shown in The Table 5-4.</p>
+							<button onclick="myFunction('Demo8')" class="w3-button w3-light-grey"><b>Table 5-3 Mathematics Component</b></button>
+			            		<div id="Demo8" class="w3-hide w3-container w3-light-grey">
+								  <ul class="c">
+								  	<p><b>Mathematics Component</b></p>
+								  	<li class="normal"><img src="images/table5.3.PNG" class="img-thumbnail" alt="Cinque Terre" width="600px"></li>
+								  </ul>
+								</div>
+								<br>
+								<br>
+							<button onclick="myFunction('Demo9')" class="w3-button w3-light-grey"><b>Table 5-4 Basic Science Component</b></button>
+			            		<div id="Demo9" class="w3-hide w3-container w3-light-grey">
+								  <ul class="c">
+								  	<p><b>Basic Science Component</b></p>
+								  	<li class="normal"><img src="images/table5.4.PNG" class="img-thumbnail" alt="Cinque Terre" width="600px"></li>
+								  </ul>
+								</div>
+							<p><b>Engineering Topics</b></p>
+							<p>The engineering topics component divides to 69 (minimum) credit hours of lecture course as shown in the Table 5-5 and 28 credit hours of no lecture course as shown in the Table 5-6</p>
+							<button onclick="myFunction('Demo10')" class="w3-button w3-light-grey"><b>Table 5-5 Lecture Courses</b></button>
+			            		<div id="Demo10" class="w3-hide w3-container w3-light-grey">
+								  <ul class="c">
+								  	<p><b>Lecture Courses</b></p>
+								  	<li class="normal"><img src="images/table5.5.PNG" class="img-thumbnail" alt="Cinque Terre" width="600px"></li>
+								  	<li class="normal"><img src="images/table5.51.PNG" class="img-thumbnail" alt="Cinque Terre" width="600px"></li>
+								  </ul>
+								</div>
+								<br>
+								<br>
+							<button onclick="myFunction('Demo11')" class="w3-button w3-light-grey"><b>Table 5-6 Non-Lecture Courses</b></button>
+			            		<div id="Demo11" class="w3-hide w3-container w3-light-grey">
+								  <ul class="c">
+								  	<p><b>Non-Lecture Courses</b></p>
+								  	<li class="normal"><img src="images/table5.6.PNG" class="img-thumbnail" alt="Cinque Terre" width="600px"></li>
+								  </ul>
+								</div>
 			            </ul>
 			        </div>
 			        <div class="tab-pane" id="tab_faculty">
@@ -195,10 +285,37 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			            		<p class="normal">In Telecommunication and Information Engineering, the EESP has 9 faculties. They have many years of experience in design and planning of telecommunication system related to wireless, satellite, fiber optic, antenna, traffic engineering, and switching. In Electric Power Engineering, the EESP has 12 faculty members. They have expertise in Stability, Control and Power System Protection, Power Electronics, High Voltage and Isolation, Distribution of Power Systems and Electrical Installations, Power Systems and Electricity, Electricity Infrastructure. In Computer, Control and Electronic Engineering, the EESP has 12 faculty. And a visiting lecture.</p>
 			            		<br>
 			            		<p class="normal">Most of the faculty conduct highly research activities and manage the research groups in their each field of expertise. They are also very active in writing some articles for some conferences and reputable international journals.</p>
+			            		<button onclick="myFunction('Demo3')" class="w3-button w3-light-grey">Table 6.1 Faculty Qualifications</button>
+			            		<div id="Demo3" class="w3-hide w3-container w3-light-grey">
+								  <p>Electrical Engineering Study Program (EESP)</p>
+								  <ul class="c">
+								  	<li class="normal"><img src="images/tabel6.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  	<li class="normal"><img src="images/table6-11.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  </ul>
+								  
+								</div>
 			            	</li>
+			            	<br>
 			            	<li class="thick">Faculty Workload
-			            		<p class="normal">The EESP full-time faculty members requires to fulfill 12-16 credits hours in each semester which covering the area of teaching, research, community service, and others. Teaching and research typically accounts for minimum 9 credits hours of workload, where teaching for minimum 6 credit hours. The teaching activities include thesis supervisor, examiner for proposal seminar and final year report, and academic advisor. The faculty members engage in minimum 3 hours of community service and other acrivities. Table 6-2 presents the Faculty Workload Summary and describes this information in terms of workload expectations or requirements.</p>
+			            		<p class="normal">The EESP full-time faculty members requires to fulfill 12-16 credits hours in each semester which covering the area of teaching, research, community service, and others. Teaching and research typically accounts for minimum 9 credits hours of workload, where teaching for minimum 6 credit hours. The teaching activities include thesis supervisor, examiner for proposal seminar and final year report, and academic advisor. The faculty members engage in minimum 3 hours of community service and other acrivities. </p>
+			            		<button onclick="myFunction('Demo2')" class="w3-button w3-light-grey">Table 6.2 Faculty Workload Summary</button>
+			            		<div id="Demo2" class="w3-hide w3-container w3-light-grey">
+								  <p>Table 6-2 presents the Faculty Workload Summary and describes this information in terms of workload expectations or requirements.</p>
+								  <ul class="c">
+								  	<li class="normal"><img src="images/table6-2.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  	<li class="normal"><img src="images/table6-21.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  	<li class="normal"><img src="images/table6-22.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  	<li class="normal"><img src="images/table6-23.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  	<li class="normal"><img src="images/table6-24.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  	<li class="normal"><img src="images/table6-25.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  	<li class="normal"><img src="images/table6-26.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  	<li class="normal"><img src="images/table6-27.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  	<li class="normal"><img src="images/table6-28.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  </ul>
+								  
+								</div>
 			            	</li>
+			            	<br>
 			            	<li class="thick">Faculty Size
 			            		<p class="normal">The faculty members are sufficient to cover all of the courses both required engineering courses and elective courses, with at least two faculty members competent of teaching the courses. All of the courses are presented at once a year, and some of the elective courses are offered for every semester. </p>
 			            		<br>
@@ -211,8 +328,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			            		<p class="normal">Interactions with industrial and professional practitioners including employers of students: Some of the faculty members are actively involved in solving industrial problems, and conducting collaborative research such as with electric utility and cement companies. The EESP is regularly invited representatives from industry as guest lecturers in undergraduate classes to give public lectures to broaden the students understanding of current industrial context.</p>
 			            	</li>
 			            	<li class="thick">Professional Development
-			            		<p class="normal">The summary of professional development activities for each faculty member is presented Table 6.3. </p>
+			            		<p class="normal">The summary of professional development activities for each faculty member is presented</p>
+			            		<button onclick="myFunction('Demo1')" class="w3-button w3-light-grey">Table 6.3</button>
+			            		<div id="Demo1" class="w3-hide w3-container w3-light-grey">
+								  <p>Table 6.3 Summary of Professional Development Activities for Faculty Members.</p>
+								  <ul class="c">
+								  	<li class="normal"><img src="images/table6-3.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  	<li class="normal"><img src="images/table6-31.PNG" class="img-thumbnail" alt="Cinque Terre" width="800px"></li>
+								  </ul>
+								  
+								</div>
 			            	</li>
+			            	<br>
 			            	<li class="thick">Authority and Responsibility of Faculty
 			            		<p class="normal">Faculty members at the EESP have responsibility related to academic program in electrical engineering which is approved by faculty. Besides semester evaluation, every five years, faculty members evaluate / review the implementation of academic program as a whole including such us program goals, curriculum, student ratings, and equipment resources. The review is intended to know the implementation level of the academic program so it can be used as a reference in designing the next academic program. If there are big changes such as deleting or adding new course, then it is proposed to department and forwarded to faculty for final approval. Faculty members have authority for course modifications.</p>
 			            	</li>
@@ -234,9 +361,42 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			            <br>
 			            <p class="normal">The ultimate learning process is at the final fourth year. Seniors are required to apply to one of the research laboratories or working groups. When a senior is admitted to a research laboratory or working group then he or she becomes a member of the laboratory or group by signing an annual contract with the head of the laboratory or the chairman of the group. The seniors will work together with professors and their associates and assistants, their fellows graduate and undergraduate students, to develop their ability to apply their knowledge and to design experiments, systems, processes and/or components to meet desired needs. They also learn how to work effectively not only as individuals but also in teams, either as leaders or members.</p>
 			            <p class="normal">After completing all basic and fundamental courses, in the third year the students are supposed to take at least one elective-course package per semester consisting of 3 to 4 courses in a specific area of electrical engineering that will - but not necessarily – lead to one of the research laboratories or working groups in the fourth year that they are interested to apply. Roughly 6 to 8 elective-course packages are offered each semester to juniors, covering the total of more than 50 elective-courses.</p>
+			            <button onclick="myFunction('Demo12')" class="w3-button w3-light-grey"><b>Tabel 1-2</b></button>
+			            		<div id="Demo12" class="w3-hide w3-container w3-light-grey">
+								  <p><b>List of Available Research Laboratories and Working Groups in the Academic Year of 2018-201</b></p>
+								  <ul class="c">
+								  	<li class="normal"><img src="images/table1.PNG" class="img-thumbnail" alt="Cinque Terre" width="600px"></li>
+								  </ul>
+								  
+								</div>
 			        </div>
 			        <div class="tab-pane" id="tab_programlocation">
 			        	<p class="normal">All academic teaching and learning processes are located in the new Faculty of Engineering campus at Gowa, about 20 km to the south from the old campus at Tamalanrea, Makassar. The new campus is designed to accommodate the concept of Laboratory-based Education (LBE) adopted by the Faculty of Engineering. Common facilities such as classrooms, the central library and the Faculty of Engineering administrative offices, are located in the main area of campus. A three-story building as seen in Fig. 1-2 is functioned as the Classroom Building to house classrooms with the capacity of 20 to 100 students. Lecture theaters for an audience of hundreds of students are also available for general lectures. For smaller classes, less than 20 students, the seminar and meeting rooms in laboratories at the Electrical Engineering Building can be used, as shown in Fig. 1-3</p>
+			        	<button onclick="myFunction('Demo13')" class="w3-button w3-light-grey"><b>Figure 1-2</b></button>
+			            		<div id="Demo13" class="w3-hide w3-container w3-light-grey">
+								  <ul class="c">
+								  	<p><b>The Faculty Engineering's Common Classroom Building</b></p>
+								  	<li class="normal"><img src="images/figure1.2.PNG" class="img-thumbnail" alt="Cinque Terre" width="600px"></li>
+								  </ul>
+								</div>
+						<br>
+						<br>
+						<button onclick="myFunction('Demo14')" class="w3-button w3-light-grey"><b>Figure 1-3</b></button>
+			            		<div id="Demo14" class="w3-hide w3-container w3-light-grey">
+								  <ul class="c">
+								  	<p><b>The Electrical Engineering Building</b></p>
+								  	<li class="normal"><img src="images/figure1.3.PNG" class="img-thumbnail" alt="Cinque Terre" width="600px"></li>
+								  </ul>
+								</div>
+						<br>
+						<br>
+						<button onclick="myFunction('Demo15')" class="w3-button w3-light-grey"><b>Figure 1-4</b></button>
+			            		<div id="Demo15" class="w3-hide w3-container w3-light-grey">
+								  <ul class="c">
+								  	<p><b>The Standing Banners in Front of the Depatment's Administrative Office</b></p>
+								  	<li class="normal"><img src="images/figure1.4.PNG" class="img-thumbnail" alt="Cinque Terre" width="600px"></li>
+								  </ul>
+								</div>
 			        </div>
 
 
