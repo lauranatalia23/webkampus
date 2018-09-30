@@ -195,7 +195,7 @@ body{
 	font-family: "Century Gothic";
 	text-transform:uppercase;
 	margin-bottom:10px;
-	width:70%;
+	width:80%;
 	font-weight:600;
 	float:none;
 }
@@ -269,7 +269,7 @@ p.bottom{
 /*--content--*/
 .main{
 	background:#f6f6f6;
-	padding-left: 100px;
+/*	padding-left: 100px;*/
 	padding-bottom: 50px;
 	padding-top: 50px;
 }
