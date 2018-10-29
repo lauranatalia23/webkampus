@@ -117,8 +117,8 @@ div#list_data img.active{
     display: none;
     position: absolute;
     background-color: #eb2629;
-    font-size: 14px;
-    min-width: 160px;
+    font-size: 12px;
+    min-width: 260px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
