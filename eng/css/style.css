@@ -37,7 +37,7 @@ h2 {
 }
 
 h3 {
-	font-size: 30px;
+	font-size: 24px;
 }
 
 h4 {
@@ -343,6 +343,13 @@ ol {
 .main-menu li.active a {
 	background: #f6783a;
 }
+/*---------------------
+	Image Master Plan
+-----------------------*/
+#image-partner {
+	max-width: 150px;
+	padding: 5px 10px;
+}
 
 /*---------------------
 	Hero Section
@@ -378,6 +385,7 @@ ol {
 	color: #fff;
 	font-size: 48px;
 	margin-bottom: 25px;
+	margin-top: 50px;
 	position: relative;
 	left: 150px;
 	opacity: 0;
@@ -916,7 +924,7 @@ ol {
 }
 
 .blog-item .blog-content h4 {
-	font-size: 22px;
+	font-size: 16px;
 	font-weight: 400;
 	margin-bottom: 8px;
 	line-height: 1.4;
@@ -943,7 +951,7 @@ ol {
 
 .newsletter-section {
 	background: #f7f7f7;
-	padding: 50px 0;
+	padding: 20px 0;
 }
 
 .newsletter-section .newsletter {
