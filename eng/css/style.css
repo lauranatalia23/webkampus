@@ -982,7 +982,7 @@ ol {
 -----------------------*/
 
 .footer-section {
-	background-color: #020031;
+	background-color: #B22222;
 	background-image: url("../img/footer-bg.png");
 	background-repeat: no-repeat;
 	background-position: center 75px;
@@ -993,7 +993,7 @@ ol {
 }
 
 .footer-section .copyright {
-	border-top: 1px solid #312f56;
+	border-top: 1px solid #B22222;
 	padding: 27px 0;
 	text-align: center;
 }
